@@ -20,6 +20,10 @@ code {
   font-size: 60%;
 }
 
+body{
+  height:100vh;
+}
+
 section {
   overflow: hidden;
   height: var(--height);
@@ -81,6 +85,10 @@ section {
 
 .pa{
   position:absolute;
+}
+
+.pf{
+  position:fixed;
 }
 
 .pointer{

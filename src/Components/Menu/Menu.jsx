@@ -17,7 +17,7 @@ const Menu = () => {
             >
                 <div className="HB flex je"></div>
             </div>
-            <div className="menu_content flex jsb ac col pa">
+            <div className="menu_content flex jsb ac col pf">
                 <ul className='flex jc as col '>
                     <li>
                         <div className="menu_items pointer Menu_underline">

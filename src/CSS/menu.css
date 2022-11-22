@@ -41,9 +41,19 @@
     margin-top:-7px;
 }
 
-
 .menu_outer:hover .HB{
     width:80%;
+    background: #000;
+}
+
+.menu_outer:hover .HB:after{
+    width:80%;
+    background: #000;
+}
+
+.menu_outer:hover .HB:before{
+    width:80%;
+    background: #000;
 }
 
 .menu_outer:is(.active) .HB{
@@ -55,6 +65,7 @@
     left:50%;
     rotate: -45deg;
     transition: all 0.5s ease-in-out;
+    background: #000;
 }
 
 .menu_outer:is(.active) .HB:after{
@@ -62,6 +73,7 @@
     left:50%;
     rotate: 45deg;
     transition: all 0.5s ease-in-out;
+    background: #000;
 }
 
 .menu_content{
