@@ -1,0 +1,17 @@
+.services_nav_outer{
+    height: 40px;
+    padding: 20px 0;
+    background: red;
+}
+
+.services_nav{
+    height:100%;
+}
+
+.services_nav_inner{
+    height:100%;
+    gap:30px
+}
+
+.services_nav_inner > .services_nav_tab {
+}
