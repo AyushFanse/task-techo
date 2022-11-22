@@ -14,21 +14,19 @@ code {
 
 :root{
   --height: auto;
-  --m-height: calc(100vh - 144px);
+  --m-height: calc(100vh - 80px);
   --color: #1877F2;
   --icon-color:#315EB7;
   font-size: 60%;
+  scroll-behaver: smooth;
 }
 
-body{
-  height:100vh;
-}
 
-section {
+.container {
   overflow: hidden;
   height: var(--height);
   min-height: var(--m-height);
-  padding: 50px;
+  padding: 40px 40px;
 }
 
 .flex{

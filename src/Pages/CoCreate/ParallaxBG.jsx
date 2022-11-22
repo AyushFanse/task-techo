@@ -3,10 +3,10 @@ import Navbar from "../../Components/Navbar/Navbar";
 
 const ParallaxBG = () => {
     return (
-        <section>
+        <div className='container' id='parallax_bg'>
             <Navbar />
             <div>ParallaxBG</div>
-        </section>
+        </div>
     );
 };
 

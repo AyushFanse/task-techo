@@ -1,0 +1,10 @@
+.footer_outer > div:nth-child(1){
+    height: 200px;
+    max-height:50%;
+    rotate: 180deg;
+}
+
+.footer_outer > div:nth-child(2){
+    background:red;
+    width:100%;
+}

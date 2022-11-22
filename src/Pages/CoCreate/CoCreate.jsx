@@ -4,10 +4,10 @@ import ParallaxBG from "./ParallaxBG";
 const CoCreate = () => {
     return (
         <>
-        <ParallaxBG />
-        <section>
+        <div className='container' id='co_create'>
             <div>CoCreate</div>
-        </section>
+        </div>
+        <ParallaxBG />
         </>
     );
 };

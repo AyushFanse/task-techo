@@ -1,11 +1,11 @@
 .menu_outer{
-    width:80px;
-    height:35px;
+    width:60px;
+    height:30px;
     transition: all 0.5s ease-in-out;
     z-index:200;
 }
 
-.menu_outer > .HB{
+.menu_outer > *{
     margin:auto 0;
     width: 40%;
     height:3.8px;
@@ -16,7 +16,7 @@
 
 .menu_outer > .HB:before{
     content: '';
-    width: 50px;
+    width: 45px;
     height:3.8px;   
     background: var(--icon-color);
     border-radius: 25px;
@@ -27,7 +27,7 @@
 
 .menu_outer > .HB:after{
     content: '';
-    width: 50px;
+    width: 45px;
     height:3.8px;   
     background: var(--icon-color);
     border-radius: 25px;
@@ -37,7 +37,7 @@
 }
 
 .menu_outer:not(.active):hover{
-    height:50px;
+    height:40px;
     margin-top:-7px;
 }
 
@@ -47,12 +47,10 @@
 }
 
 .menu_outer:hover .HB:after{
-    width:80%;
     background: #000;
 }
 
 .menu_outer:hover .HB:before{
-    width:80%;
     background: #000;
 }
 
@@ -93,7 +91,7 @@
 }
 
 .menu_outer:is(.active) + .menu_content{
-    width: 500px;
+    width: 400px;
     padding: 0 30px;
 }
 

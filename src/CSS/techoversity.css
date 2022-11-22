@@ -1,75 +1,77 @@
-.techoversity_content{
+.techoversity_content {
     background: transparent url("../Assets/Brackets.png") 50% 50% no-repeat
         padding-box;
+    background-size: contain;
 }
 
 .techoversity > .techoversity_inner {
     margin: auto;
-    flex:1;
-    height:80vh;
+    flex: 1;
+    height: 80vh;
 }
 
 .techoversity > .techoversity_inner > h1 {
-    margin-top: -50px;
-    font-size:5rem
+    /* margin-top: -20px; */
+    font-size: 3rem;
+    text-transform:uppercase;
 }
 
-.techoversity_content{
-    height:250px;
+.techoversity_content {
+    height: 250px;
+    width: 60%;
 }
 
-
-.techoversity_content > h2{
-    font-size:3rem;
+.techoversity_content > h2 {
+    font-size: 2rem;
     margin: auto;
-    width:60%;
+    width: 60%;
     text-align: center;
-    font-weight: thin;
+    font-weight: 500;
+    color:#0008;
 }
 
 .techoversity_button {
     height: 100px;
 }
 
-.techoversity_button > input{
-    margin:auto;
+.techoversity_button > input {
+    margin: auto;
     padding: 10px 40px;
-    background: linear-gradient(20deg, var(--color) 0%, var(--icon-color)100%);
+    background: linear-gradient(20deg, var(--color) 0%, var(--icon-color) 100%);
     border: none;
     border-radius: 5px;
     color: white;
     transition: all 0.3s ease-in-out;
 }
 
-.techoversity_button > input:hover{
+.techoversity_button > input:hover {
     padding: 15px 60px;
 }
 
-.techoversity_footer{
-    margin-top:-20px;
+.techoversity_footer {
+    margin-top: -20px;
 }
 
-.down_img_out{
+.down_img_out {
     height: 60px;
-    width:112px
+    width: 112px;
 }
 
-.chat_img_out{
+.chat_img_out {
     height: 60px;
-    width:60px
+    width: 60px;
 }
 
-.down_img{
-    height:30px;
+.down_img {
+    height: 30px;
 }
 
-.chat_img{
-    margin:auto;
-    height:40px;
+.chat_img {
+    margin: auto;
+    height: 40px;
     transition: all 0.3s ease-in-out;
 }
 
 .chat_img:hover {
-    height:50px;
+    height: 50px;
 }
-
