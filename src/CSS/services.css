@@ -1,17 +1,85 @@
-.services_nav_outer{
+.services_nav_outer {
     height: 40px;
-    padding: 20px 0;
-    background: red;
+    padding: 20px 0px;
 }
 
-.services_nav{
-    height:100%;
+.services_nav {
+    height: auto;
 }
 
-.services_nav_inner{
-    height:100%;
-    gap:30px
+.services_nav_inner {
+    gap: 10px;
 }
 
-.services_nav_inner > .services_nav_tab {
+.services_nav_tab {
+    height: auto;
+    padding: 10px 15px;
+    width: fit-content;
+    font-size: 1.4rem;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+}
+
+.services_nav_tab:is(.active) {
+    height: auto;
+    padding: 10px 15px;
+    background: var(--icon-color);
+    width: fit-content;
+    font-size: 1.4rem;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+.card_container{
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+
+.card_outer{
+    width: calc(100% / 3);
+    height:auto;
+    aspect-ratio: 3/4;
+}
+
+.card_outer > div{
+    padding:20px;
+}
+
+.card{
+    box-shadow: 2px 2px 6px #0004 ;
+    height: auto;
+    min-height: 550px;
+    border-radius:25px;
+}
+
+.card > *{
+    margin: 10px 20px;
+}
+
+.card_img{
+    padding:20px;
+}
+
+.card_img > img{
+    width:100%;
+    object-fit: cover;
+    border-radius:25px;
+}
+
+.card > h1{
+    font-size: 2.5rem;
+}
+
+.card > p{
+    font-size: 2rem;
+}
+
+.card > .read_btn{
+    padding: 8px 0px;
+    background: transparent;
+    border:none;
+    font-size: 2.2rem;
+    color: var(--icon-color);
 }
