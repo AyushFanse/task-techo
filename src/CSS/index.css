@@ -27,14 +27,6 @@ code {
     font-size: 60%;
 }
 
-/* .fullpage {
-    --perspective: 1000px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: var(--perspective);
-} */
-
 .container {
     height: var(--height);
     min-height: var(--m-height);
