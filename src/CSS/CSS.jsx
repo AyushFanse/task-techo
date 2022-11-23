@@ -4,3 +4,4 @@ import "./techoversity.css";
 import "./menu.css";
 import "./services.css";
 import "./footer.css";
+import "./co_create.css";

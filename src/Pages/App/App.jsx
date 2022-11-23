@@ -1,8 +1,17 @@
-import FullPage from '../FullPage/FullPage'
+import Techoversity from "../Techoversity/Techoversity";
+import Services from "../Services/Services";
+import CoCreate from "../CoCreate/CoCreate";
+import Footer from "../Footer/Footer";
+
 
 function App() {
   return (
-    <FullPage />
+    <div className="fullpage">
+        <Techoversity />
+        <Services />
+        <CoCreate />
+        <Footer />
+    </div>
   );
 }
 

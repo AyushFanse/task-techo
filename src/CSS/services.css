@@ -51,8 +51,10 @@
     margin: 15px;
 }
 
+
 .card_img > img{
-    width:100%;
+    aspect-ratio:4/2.5;
+    width: 100%;
     object-fit: cover;
     border-radius:25px;
     margin-top:-20px;
@@ -80,7 +82,8 @@
     padding: 8px 0px;
     background: transparent;
     border:none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: lighter;
     color: var(--icon-color);
 }
 
@@ -92,4 +95,15 @@
     .card_outer{
         width: calc(100% / 2);
     }
+}
+
+@media (max-width: 768px){
+    .card_outer{
+        width: 100%;
+    }
+}
+
+#service {
+    z-index: 1;
+    background: #fff
 }

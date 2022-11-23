@@ -1,0 +1,60 @@
+/* #CC_outer{
+    z-index: -1 !important;
+}  */
+
+#parallax_bg {
+    inset:0;
+    position: sticky;
+    top:0;
+    /* --transform-z : 700px;
+    transform: translateZ(calc(var(--transform-z) * -1)) scale(1.7); */
+    z-index: -1 !important;
+    background: linear-gradient(0deg, var(--shade-color) 0%, var(--icon-color) 100%);
+}
+
+#parallax_bg > *{
+    width:100%;
+    --icon-color: #fff;
+}
+
+#co_create {
+    background: transparent !important;
+}
+
+.CC_title {
+    font-size: 5rem;
+    font-style: italic;
+    /* color: white; */
+}
+
+.CC_button {
+    height: 100px;
+}
+
+.CC_button > input {
+    margin: auto;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.CC_button > input:hover {
+    padding: 15px 50px;
+}
+
+#co_create .down_img_out{
+    bottom: 20px;
+}
+
+.CC_footer {
+    margin-top: -20px;
+    color: #fff;
+}
+
+.CC_footer .down_img_out {
+    height: 60px;
+    width: 112px;
+}

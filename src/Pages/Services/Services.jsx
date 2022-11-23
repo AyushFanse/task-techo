@@ -5,7 +5,7 @@ import { goTo } from "../../Components/ReusedFunctions/ReusedFunctions";
 
 const Services = () => {
     return (
-        <div className="container" id="service">
+        <div className="container section" id="service">
             <div className="services_nav_outer">
                 <nav className="services_nav">
                     <ul className="services_nav_inner flex jc ac row">
@@ -52,7 +52,7 @@ const Services = () => {
                         src={B_Nav_Arrow}
                         alt=""
                         onClick={() => {
-                            goTo("co_create");
+                            goTo("CC_outer");
                         }}
                     />
                 </div>

@@ -7,7 +7,7 @@ import { goTo } from "../../Components/ReusedFunctions/ReusedFunctions";
 const Techoversity = () => {
     return (
         <>
-            <div className="container techoversity" id="techoversity">
+            <div className="container techoversity section" id="techoversity">
                 <Navbar />
                 <div className="techoversity_inner flex jc ac col">
                     <h1>Techoversity</h1>

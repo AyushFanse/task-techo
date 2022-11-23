@@ -1,119 +1,134 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
-:root{
-  --height: auto;
-  --m-height: calc(100vh - 80px);
-  --color: #1877F2;
-  --icon-color:#315EB7;
-  font-size: 60%;
-  scroll-behaver: smooth;
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth !important;
+    }
 }
 
+:root {
+    --height: auto;
+    --m-height: calc(100vh - 80px);
+    --color: #1877f2;
+    --shade-color: #8fbffe;
+    --icon-color: #242DAE;
+    font-size: 60%;
+}
+
+/* .fullpage {
+    --perspective: 1000px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: var(--perspective);
+} */
 
 .container {
-  overflow: hidden;
-  height: var(--height);
-  min-height: var(--m-height);
-  padding: 40px 40px;
+    height: var(--height);
+    min-height: var(--m-height);
+    padding: 40px 40px;
+    transform-style: preserve-3d;
+    position: relative;
+    z-index:1;
 }
 
-.flex{
-  display:flex;
+.flex {
+    display: flex;
 }
 
-.row{
-  flex-direction: row;
+.row {
+    flex-direction: row;
 }
 
-.col{
-  flex-direction: column;
+.col {
+    flex-direction: column;
 }
 
-.jc{
-  justify-content: center;
+.jc {
+    justify-content: center;
 }
 
-.js{
-  justify-content: flex-start;
+.js {
+    justify-content: flex-start;
 }
 
-.je{
-  justify-content: flex-end;
+.je {
+    justify-content: flex-end;
 }
 
-.jsb{
-  justify-content: space-between;
+.jsb {
+    justify-content: space-between;
 }
 
-.jsa{
-  justify-content: space-around;
+.jsa {
+    justify-content: space-around;
 }
 
-.jse{
-  justify-content: space-evenly;
+.jse {
+    justify-content: space-evenly;
 }
 
-.ac{
-  align-items: center;
+.ac {
+    align-items: center;
 }
 
-.as{
-  align-items: flex-start;
+.as {
+    align-items: flex-start;
 }
 
-.ae{
-  align-items: flex-end;
+.ae {
+    align-items: flex-end;
 }
 
-.pr{
-  position:relative;
+.pr {
+    position: relative;
 }
 
-.pa{
-  position:absolute;
+.pa {
+    position: absolute;
 }
 
-.pf{
-  position:fixed;
+.pf {
+    position: fixed;
 }
 
-.pointer{
-  cursor:pointer;
+.pointer {
+    cursor: pointer;
 }
 
-ul{
-  margin:0;
-  padding:0;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-li{
-  text-decoration: none;
-  list-style: none;
+li {
+    text-decoration: none;
+    list-style: none;
 }
 
-.Menu_underline {
-  width: fit-content;
-  background-image: black;
-  background-size: 0 3px;
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  transition: all 0.5s ease-in-out;
-  padding: 3px 0;
+#Menu_underline {
+    width: fit-content;
+    background-image: linear-gradient(0deg, #000 0%, #000 100%);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 1.5px;
+    cursor: pointer;
 }
 
-.Menu_underline:hover {
-  background-size: 100% 3px;
+#Menu_underline:hover {
+    background-size: 100% 3px;
 }
-
